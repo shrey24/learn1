@@ -1,0 +1,11 @@
+This file is created from GitHub, and belongs to 'Dev' branch.
+
+local git: Pulled(Git fetch + merge)
+edited code,, and now pushed back to Dev branch
+
+When pushing to a non-default branch, you need to specify the source ref and the target ref:
+git push origin branch1:branch2
+
+Or
+
+git push <remote> <branch with new changes>:<branch you are pushing to> 
